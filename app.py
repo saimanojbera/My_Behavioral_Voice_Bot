@@ -18,7 +18,7 @@ my_story_context = load_my_story()
 
 # Initialize session state
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Hi! I'm here to answer any behavioral questions you have."}]
+    st.session_state.messages = [{"role": "assistant", "content": "Hi! I'm here to answer any behavioral questions as saimanoj bera."}]
 
 # Page title
 st.title("🎤 Behavioral Voice Bot (Saimanoj Bera)")
